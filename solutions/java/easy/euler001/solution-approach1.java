@@ -6,6 +6,11 @@
 // Language    java
 // Status      Accepted
 // Submitted   2026-06-27, 09:10 p.m.
+// Technique   arithmetic-series-sum
+// Time        O(1)
+// Space       O(1)
+// Trick       Use the inclusion-exclusion principle with the arithmetic series formula to calculate sums in constant time instead of iterating.
+// Hint        Use long to prevent integer overflow for large n.
 // ──────────────────────────────────────────────────
 
 import java.io.*;
