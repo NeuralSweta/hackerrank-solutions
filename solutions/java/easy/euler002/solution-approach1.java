@@ -6,6 +6,11 @@
 // Language    java
 // Status      Accepted
 // Submitted   2026-07-07, 09:03 p.m.
+// Technique   iterative-fibonacci-sum
+// Time        O(log N)
+// Space       O(1)
+// Trick       Iterate through Fibonacci numbers using two variables to track the sequence, summing only even values until the limit is reached.
+// Hint        Fibonacci growth is exponential, so the loop runs logarithmically.
 // ──────────────────────────────────────────────────
 
 import java.io.*;
