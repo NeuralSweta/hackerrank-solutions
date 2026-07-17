@@ -7,6 +7,11 @@
 // Language    java
 // Status      Accepted
 // Submitted   2026-07-17, 10:40 a.m.
+// Technique   top-down-memoization
+// Time        O(n)
+// Space       O(n)
+// Trick       The code uses an integer array dp to store intermediate results, avoiding redundant recursive calls by checking if dp[n] is non-zero.
+// Hint        dp array size n+1 prevents IndexOutOfBoundsException for input n.
 // ──────────────────────────────────────────────────
 
 import java.util.*;
